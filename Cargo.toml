@@ -1,0 +1,7 @@
+[workspace]
+members = [
+     "gnome-desktop",
+     "gnome-desktop/sys",
+]
+
+exclude = ["gir"]

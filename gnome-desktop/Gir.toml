@@ -1,0 +1,39 @@
+[options]
+girs_directories = ["../gir-files", "../"]
+library = "GnomeDesktop"
+version = "4.0"
+min_cfg_version = "4.0"
+target_path = "."
+work_mode = "normal"
+
+generate_safety_asserts = true
+deprecate_by_min_version = true
+single_version_file = true
+generate_builder = true
+use_gi_docgen = true
+
+manual = [
+    "GDesktopEnums.ClockFormat",
+    "GdkPixbuf.Pixbuf",
+    "Gio.AsyncReadyCallback",
+    "Gio.AsyncResult",
+    "Gio.Cancellable",
+    "Gio.DBusConnection",
+    "Gio.Initable",
+    "GLib.DateTime",
+    "GLib.Error",
+    "GLib.TimeZone",
+]
+
+generate = [
+    "GnomeDesktop.DesktopThumbnailFactory",
+    "GnomeDesktop.DesktopThumbnailSize",
+    "GnomeDesktop.IdleMonitor",
+    "GnomeDesktop.PnpIds",
+    "GnomeDesktop.WallClock",
+    "GnomeDesktop.XkbInfo",
+]
+
+[[object]]
+name = "GnomeDesktop.*"
+status = "generate"

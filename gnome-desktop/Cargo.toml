@@ -1,0 +1,22 @@
+[package]
+name = "gnome-desktop"
+version = "0.4.2"
+# authors = ["The Gtk-rs Project Developers"]
+categories = ["api-bindings"]
+description = "Rust bindings for the GNOME Utility Library "
+edition = "2018"
+keywords = ["gnome", "gtk"]
+license = "MIT"
+#repository = "https://gitlab.gnome.org/World/Rust/gnome-desktop-rs"
+repository = "https://gitlab.gnome.org/vlinkz/gnome-desktop-rs"
+
+[dependencies]
+libc = "0.2"
+glib = "0.18"
+gio = "0.18"
+gdk-pixbuf = "0.18"
+gdesktop_enums = { package = "gsettings-desktop-schemas", version = "0.3.1" }
+ffi = { package = "gnome-desktop-sys", path = "./sys", version = "0.4.1" }
+
+[features]
+default = []
