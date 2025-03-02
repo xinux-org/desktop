@@ -1,6 +1,6 @@
 [package]
-name = "gnome-desktop-sys"
-version = "0.4.2"
+name = "gnome-desktop-sys-xinux"
+version = "0.4.3"
 license = "MIT"
 description = "FFI bindings to gnome-desktop-4"
 homepage = "https://gtk-rs.org/"
@@ -49,8 +49,8 @@ package = "gdk-pixbuf-sys"
 version = "0.20.7"
 
 [dependencies.gdesktop_enums]
-package = "gsettings-desktop-schemas-sys"
-version = "0.3.1"
+package = "gsettings-desktop-schemas-sys-xinux"
+version = "0.3.2"
 
 [build-dependencies]
 system-deps = "6"
