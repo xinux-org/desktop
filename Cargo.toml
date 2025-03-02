@@ -1,7 +1,5 @@
 [workspace]
-members = [
-     "gnome-desktop",
-     "gnome-desktop/sys",
-]
+resolver = "2"
+members = ["gnome-desktop", "gnome-desktop/sys"]
 
 exclude = ["gir"]
