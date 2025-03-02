@@ -4,11 +4,10 @@ version = "0.4.3"
 # authors = ["The Gtk-rs Project Developers"]
 categories = ["api-bindings"]
 description = "Rust bindings for the GNOME Utility Library "
-edition = "2018"
+edition = "2021"
 keywords = ["gnome", "gtk"]
 license = "MIT"
-#repository = "https://gitlab.gnome.org/World/Rust/gnome-desktop-rs"
-repository = "https://gitlab.gnome.org/vlinkz/gnome-desktop-rs"
+repository = "https://gitlab.gnome.org/xinux-org/desktop"
 
 [dependencies]
 libc = "0.2"
