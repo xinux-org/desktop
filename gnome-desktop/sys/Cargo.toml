@@ -34,19 +34,19 @@ libc = "0.2"
 
 [dependencies.glib]
 package = "glib-sys"
-version = "0.18"
+version = "0.20.9"
 
 [dependencies.gio]
 package = "gio-sys"
-version = "0.18"
+version = "0.20.9"
 
 [dependencies.gobject]
 package = "gobject-sys"
-version = "0.18"
+version = "0.20.9"
 
 [dependencies.gdk-pixbuf]
 package = "gdk-pixbuf-sys"
-version = "0.18"
+version = "0.20.7"
 
 [dependencies.gdesktop_enums]
 package = "gsettings-desktop-schemas-sys"
